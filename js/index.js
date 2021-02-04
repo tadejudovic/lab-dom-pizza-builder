@@ -30,8 +30,8 @@ function renderEverything() {
 
   renderButtons();
   renderPrice();
-}
-
+} 
+;
 function renderPepperoni() {
   document.querySelectorAll(".pep").forEach((onePep) => {
     if (state.pepperoni) {
